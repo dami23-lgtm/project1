@@ -2,17 +2,19 @@
 public class Exit extends GraphicsObject 
 {
     public Exit(int row, int col) 
-  { 
-    super(col, row); 
-  }
+    { 
+       super(col, row); 
+    }
+    
     @Override
     public void draw() 
-  { 
-    System.out.print('E'); 
-  }
+    { 
+       System.out.print('E'); 
+    }
+    
     @Override
     public double getArea() 
-  { 
-    return 1.0; 
-  }
+    { 
+       return 1.0; 
+    }
 }
